@@ -29,12 +29,12 @@ export const UPDATE_PASSWORD = {
         newPassword: { type: GraphQLString }
     },
     async resolve(parent: any, args: any) {
-        const { username, oldPassword, newPassword } = args
-        const user = await Users.findOne({ username: username })
+        const { id, oldPassword, newPassword } = args
+        const user = await Users.findOne({ id: id })
         const userPassword = user?.password
 
         if (oldPassword == userPassword) {
-            await Users.update({ username: username }, { password: newPassword })
+            await Users.update({ id: id }, { password: newPassword })
         } else {
             throw new Error("Password does not match!")
         }
