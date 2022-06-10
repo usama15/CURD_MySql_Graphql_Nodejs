@@ -1,0 +1,27 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\princ\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add bcryptjs
+
+PATH: 
+  C:\Program Files\WindowsApps\Microsoft.PowerShell_7.2.2.0_x64__8wekyb3d8bbwe;C:\Program Files\OpenJDK\jdk-11.0.15.10-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenJDK\openjdk-8u292-b10\bin;C:\Program Files\Git\cmd;C:\Users\princ\AppData\Local\Microsoft\WindowsApps;C:\Users\princ\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm 2020.3.5\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2021.1.1\bin;C:\Users\princ\AppData\Roaming\npm;C:\Users\princ\AppData\Local\Android\Sdk\platform-tools;C:\flutter\bin;C:\Users\princ\AppData\Local\gitkraken\bin;C:\Program Files\JetBrains\PhpStorm 2021.1.4\bin;C:\adb;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\AOMEI\AOMEI Backupper\6.9.0;C:\Users\princ\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\nodejs\;C:\Users\princ\AppData\Local\Android\Sdk\tools;C:\Users\princ\AppData\Local\jdk-11.0.2\bin;C:\Program Files\heroku\bin;C:\Program Files\JetBrains\WebStorm 2021.3.1\bin;C:\Users\princ\AppData\Local\Programs\oh-my-posh\bin;C:\Users\princ\AppData\Local\Programs\oh-my-posh\themes;C:\Users\princ\AppData\Roaming\nvm
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
